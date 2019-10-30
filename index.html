@@ -395,8 +395,6 @@
             updateState()
         }
 
-        setInterval(renderGraph, 1500);
-
         window.onpopstate = function (event) {
             if (event.state != null && event.state.content != undefined) {
 
